@@ -5,7 +5,7 @@ https://www.kaggle.com/datasets/nyagami/ea-sports-fc-25-database-ratings-and-sta
 
 # Dataset
 - - El dataset proporciona información completa sobre los jugadores del EA Sports FC 25, centrándose en sus calificaciones, atributos y estadísticas adicionales en el juego.
-- - EL objetivo es explorar y analizar estadísticas de jugadores de EA FC 2025. visualizando datos clave mediante gráficos dinámicos e integrando funciones de búsqueda y análisis avanzados, como regresión lineal. Facilita la toma de decisiones y comparaciones entre jugadores, ligas y países.
+- - EL objetivo es explorar y analizar estadísticas de jugadores de EA FC 2025. visualizando datos clave mediante gráficos dinámicos e integrando funciones de análisis avanzados, como regresión lineal. Facilita la toma de decisiones y comparaciones entre jugadores, ligas y países.
 
 - - El proyecto utiliza las siguientes rutas API:
 
@@ -14,7 +14,6 @@ https://www.kaggle.com/datasets/nyagami/ea-sports-fc-25-database-ratings-and-sta
 - - /api/mejores_paises: Devuelve los mejores países por OVR.
 - - /api/mejores_jugadores: Devuelve los jugadores con mayores estadísticas globales.
 - - /api/jugadores_por_liga: Devuelve el número de jugadores por liga.
-- - /api/buscar_jugador/<nombre>: Busca jugadores por nombre.
 - - /api/jugadores_por_posicion: Filtra jugadores por posición.
 - - /api/regresion_ovr_phy: Datos para el gráfico de regresión lineal.
 
@@ -25,8 +24,6 @@ https://www.kaggle.com/datasets/nyagami/ea-sports-fc-25-database-ratings-and-sta
 - - Jugadores con las mejores estadísticas globales.
 - - Número de jugadores por liga.
 - - Gráfico de regresión lineal entre atributos como OVR y PHY.
-
-- - Búsqueda de jugadores por nombre o por posición
 - - Endpoints para obtener datos estadísticos y filtrados directamente desde un archivo JSON.
 - - Los gráficos se generan dinámicamente con Chart.js y Plotly, basados en datos proporcionados por el backend.
 
