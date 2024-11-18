@@ -2,6 +2,8 @@
 
 https://www.kaggle.com/datasets/nyagami/ea-sports-fc-25-database-ratings-and-stats
 
+DESCARGAR "ProyectoF.zip" !!!!!
+
 
 # Dataset
 - - El dataset proporciona información completa sobre los jugadores del EA Sports FC 25, centrándose en sus calificaciones, atributos y estadísticas adicionales en el juego.
