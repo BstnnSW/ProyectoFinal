@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard de Jugadores - EA FC 2025</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <script src="https://cdn.plot.ly/plotly-2.16.1.min.js"></script>
+    <script src="{{ url_for('static', filename='graficos.js') }}" defer></script>
+    <script src="{{ url_for('static', filename='botones.js') }}" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Estadísticas de Jugadores EA FC 2025</h1>
+        
+        <!-- Botones para seleccionar gráficos -->
+        <div class="buttons">
+            <button id="grafico1">Mejores Ligas</button>
+            <button id="grafico2">Mejores Países</button>
+            <button id="grafico3">Mejores Jugadores</button>
+            <button id="grafico4">Jugadores por Liga</button>
+            <button id="grafico5">Regresión OVR vs PHY</button>
+
+        </div>
+
+        <!-- Canvas para mostrar gráficos -->
+        <div class="charts">
+            <div id="grafico" style="width: 100%; height: 500px;"></div>
+        </div>
+
+        <!-- Contenedor para resultados de búsqueda -->
+        <div id="resultados" class="search-results"></div>
+    </div>
+</body>
+</html>
+
